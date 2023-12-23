@@ -1,0 +1,10 @@
+package Listt;
+
+import java.util.ArrayList;
+
+import Information.Student;
+
+public class ListStudent {
+	ArrayList<Student> ListOfStudent = new ArrayList();
+
+}

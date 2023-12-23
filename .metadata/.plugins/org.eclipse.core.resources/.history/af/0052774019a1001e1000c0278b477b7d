@@ -1,0 +1,32 @@
+package ListStudent;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Class {
+
+	public static void main(String[] args) {
+		int opc = 0;
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("---------- BEM-VINDO ----------");
+		System.out.println();
+		
+		
+		do }
+		System.out.println("Escolha uma das opções abaixo:");
+		System.out.println("1) Registrar aluno: ");
+		System.out.println("2) Mostrar informações do aluno: ");
+		System.out.println("3) Situação do aluno: ");
+		System.out.println("4) Sair!");
+		opc = sc.nextInt();
+		
+		while (opc != 0) {
+			
+		sc.close();
+
+	}
+
+}

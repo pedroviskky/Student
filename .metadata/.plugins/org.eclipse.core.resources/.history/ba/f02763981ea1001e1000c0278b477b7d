@@ -1,0 +1,62 @@
+package ListStudent;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Class {
+
+	public static void main(String[] args) {
+		int opc = 0;
+		float grade;
+		String name;
+		int id = 0, age = 0;
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("---------- BEM-VINDO ----------");
+		System.out.println();
+		
+		
+		do {
+		System.out.println("Choose one of the options below:");
+		System.out.println("1) Enter the student name: ");
+		System.out.println("2) Show the student information: ");
+		System.out.println("3) Student status: ");
+		System.out.println("0) Close!");
+		opc = sc.nextInt();
+		
+		switch (opc) {
+		case 1:
+			System.out.println("Enter de name of the course: ");
+			name = sc.nextLine();
+			System.out.println("Enther the id of the course: ");
+			id = sc.nextInt();
+			System.out.println("Enther the age of the course: ");
+			age = sc.nextInt();
+			System.out.println("How many student notes do you have type?: ");
+			grade = sc.next
+			
+			
+			break;
+		case 2:
+			
+			break;
+		case 3:
+			
+			break;
+		case 0:
+			
+			break;
+
+		default:
+			break;
+		}
+		
+		} while (opc != 0); 
+		
+		sc.close();
+
+	}
+
+}

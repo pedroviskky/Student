@@ -1,0 +1,22 @@
+package Listt;
+
+import java.util.ArrayList;
+
+import Information.Student;
+
+public class ListStudent {
+	ArrayList<Student> ListOfStudent;
+
+	public ListStudent () {
+		ArrayList<Student> listOfStudent;
+	}
+	
+	public void insertStudent (Student Newstudent) {
+		ListOfStudent.add(Newstudent);
+	}
+	
+	public void ListStudent () {
+		System.out.println("List of the course: ");
+	}
+
+}
